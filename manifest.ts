@@ -12,7 +12,7 @@ import reacjilator from "./workflows/reacjilator.ts";
 export default Manifest({
   name: "reacjilator-app",
   description: "A Slack app translates Slack messages",
-  icon: "assets/default_new_app_icon.png",
+  icon: "assets/app_logo.png",
   functions: [detectLang, translate],
   workflows: [reacjilator],
   outgoingDomains: [
